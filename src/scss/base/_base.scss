@@ -1,0 +1,8 @@
+@use '../settings/colors';
+@use '../settings/fonts';
+
+body{
+  font-family: fonts.$font-base;
+  color: colors.$color-grey-dark;
+  background-color: #FAFAFA;
+}

@@ -1,4 +1,3 @@
-.red{
-  background-color: crimson;
-  height: 200px;
-}
+@use 'generic/reset';
+
+@use 'base/base';
