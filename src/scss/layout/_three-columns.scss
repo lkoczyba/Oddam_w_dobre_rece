@@ -1,0 +1,6 @@
+@use '../settings/colors';
+
+.three-columns{
+  height: 384px;
+  background-color: colors.$color-yellow;
+}
