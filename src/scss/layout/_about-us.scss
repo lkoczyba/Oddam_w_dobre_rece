@@ -1,4 +1,29 @@
+@use '../settings/variables';
+
 .about-us{
-  height: 100vh;
-  background-color: greenyellow;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  &__text-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 150px;
+  }
+  &__text{
+    font-size: variables.$fs-title-s;
+    text-align: center;
+    letter-spacing: -0.6px;
+    line-height: 1.8em;
+  }
+  &__signature{
+    width: 200px;
+    align-self: flex-end;
+  }
+  &__img-container{
+    width: 50%;
+    overflow: hidden;
+  }
+
 }
