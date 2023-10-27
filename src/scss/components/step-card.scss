@@ -1,0 +1,34 @@
+@use '../settings/colors';
+@use '../settings/variables';
+
+.step-card {
+  width: 148px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  &__icon {
+
+  }
+
+  &__title {
+    text-align: center;
+    font-size: variables.$fs-text-xl;
+    line-height: 1.33em;
+  }
+
+  &__line{
+    display: block;
+    height: 1px;
+    width: 70px;
+    background-color: colors.$color-grey;
+  }
+
+  &__text {
+    text-align: center;
+    margin-top: 5px;
+  }
+}

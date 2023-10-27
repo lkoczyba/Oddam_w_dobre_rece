@@ -1,4 +1,14 @@
+@use '../settings/colors';
+
 .simple-steps{
-  height: 100vh;
-  background-color: #737373;
+padding: 55px 0 80px;
+  &__cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    background-color: colors.$color-grey-light;
+    padding: 70px 0;
+    margin: 35px 0;
+  }
 }
