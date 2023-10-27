@@ -1,0 +1,33 @@
+@use '../settings/functions';
+@use '../settings/variables';
+@use '../settings/colors';
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 335px;
+  height: 300px;
+
+  &__number {
+    font-size: functions.pxToRem(90);
+    color: colors.$color-yellow-dark;
+    font-weight: 300;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: variables.$fs-text-xl;
+    letter-spacing: -0.02rem;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: variables.$fs-text-m;
+    line-height: 1.6em;
+    letter-spacing: -0.02rem;
+    font-weight: 300;
+  }
+}

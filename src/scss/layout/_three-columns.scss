@@ -3,4 +3,8 @@
 .three-columns{
   height: 384px;
   background-color: colors.$color-yellow;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("src/assets/3 Columns Background.png");
 }
