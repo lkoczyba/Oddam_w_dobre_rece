@@ -1,11 +1,53 @@
-.navigation{
-  height: 200px;
+@use '../settings/colors';
+@use '../settings/variables';
+
+.navigation {
+  height: 95px;
+  width: 683px;
   position: absolute;
-  top: 0;
-  right: 0;
-  background-color: orange;
+  top: 47px;
+  right: 142px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+
+  &__container-secondary {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__container-primary {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: colors.$color-grey-dark;
+    letter-spacing: 0;
+    border: 0.75px solid transparent;
+
+    &--primary, &--primary:visited, &--primary:active {
+      font-size: variables.$fs-text-xl;
+      padding: 9px 20px;
+      &:hover{
+        border: 0.75px solid colors.$color-grey-dark;
+      }
+    }
+
+    &--secondary, &--secondary:visited, &--secondary:active {
+      font-size: variables.$fs-text-s;
+      padding: 9px 10px;
+      &:hover{
+        border: 0.75px solid colors.$color-yellow;
+      }
+    }
+  }
 }
+

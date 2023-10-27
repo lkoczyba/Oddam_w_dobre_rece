@@ -1,0 +1,12 @@
+@use '../settings/variables';
+
+.heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  h1{
+    font-size: variables.$fs-title-xl;
+  }
+}

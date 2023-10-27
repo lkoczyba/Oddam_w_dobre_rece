@@ -1,17 +1,22 @@
 import React from 'react';
-import {HashLink} from "react-router-hash-link";
-import {Link} from "react-router-dom";
+import {NavHashLink} from "react-router-hash-link";
+
 
 const Navigation = () => {
     return (
         <nav className="navigation">
-            <HashLink to="/#" smooth>Start</HashLink>
-            <HashLink to="/#simple-steps" smooth>O co chodzi?</HashLink>
-            <HashLink to="/#about-us" smooth>O nas</HashLink>
-            <HashLink to="/#who-we-help" smooth>Fundacje i organizacje</HashLink>
-            <HashLink to="/#contact" smooth>Kontakt</HashLink>
-            <Link to="logowanie">Zaloguj</Link>
-            <Link to="rejestracja">Załóż konto</Link>
+            <div className="navigation__container-secondary">
+                <NavHashLink className="navigation__link navigation__link--secondary" smooth to={"logowanie"}>Zaloguj</NavHashLink>
+                <NavHashLink className="navigation__link navigation__link--secondary" smooth to={"rejestracja"}>Załóż konto</NavHashLink>
+            </div>
+            <div className="navigation__container-primary">
+                <NavHashLink className="navigation__link navigation__link--primary" smooth to={"/"}>Start</NavHashLink>
+                <NavHashLink className="navigation__link navigation__link--primary" smooth to={"/#simple-steps"}>O co chodzi?</NavHashLink>
+                <NavHashLink className="navigation__link navigation__link--primary" smooth to={"/#about-us"}>O nas</NavHashLink>
+                <NavHashLink className="navigation__link navigation__link--primary" smooth to={"/#who-we-help"}>Fundacje i
+                    organizacje</NavHashLink>
+                <NavHashLink className="navigation__link navigation__link--primary" smooth to={"/#contact"}>Kontakt</NavHashLink>
+            </div>
         </nav>
     );
 };

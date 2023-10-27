@@ -1,0 +1,16 @@
+@use 'sass:math';
+@use 'functions';
+
+//Font Size
+$fs-text-xxl: functions.pxToRem(20);
+$fs-text-xl: functions.pxToRem(18);
+$fs-text-m: functions.pxToRem(16);
+$fs-text-s: functions.pxToRem(14);
+$fs-text-xs: functions.pxToRem(12);
+
+$fs-title-xxl: functions.pxToRem(40);
+$fs-title-xl: functions.pxToRem(38);
+$fs-title-l: functions.pxToRem(36);
+$fs-title-m: functions.pxToRem(32);
+$fs-title-s: functions.pxToRem(30);
+$fs-title-xs: functions.pxToRem(26);

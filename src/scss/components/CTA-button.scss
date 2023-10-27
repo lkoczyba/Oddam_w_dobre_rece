@@ -1,0 +1,20 @@
+@use '../settings/colors';
+@use '../settings/variables';
+
+.CTA-button, .CTA-button:visited, .CTA-button:active {
+  border: 0.75px solid colors.$color-grey-dark;
+  padding: 13px 40px;
+  width: 310px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: colors.$color-grey-dark;
+  font-size: variables.$fs-title-l;
+  line-height: 1.5em;
+  text-align: center;
+  font-weight: 300;
+
+}

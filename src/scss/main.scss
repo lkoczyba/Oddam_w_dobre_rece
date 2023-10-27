@@ -2,6 +2,9 @@
 
 @use 'base/base';
 
+@use'components/headnig';
+@use'components/CTA-button';
+
 @use 'layout/app';
 @use 'layout/navigation';
 @use 'layout/login';
