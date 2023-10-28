@@ -1,4 +1,38 @@
-.who-we-help{
-  height: 100vh;
-  background-color: aqua;
+@use '../settings/variables';
+@use '../settings/colors';
+
+.who-we-help {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  justify-content: center;
+  align-items: center;
+  &__category-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+  }
+  &__category-button{
+    width: 208px;
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: variables.$fs-title-xxs;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0.75px solid transparent;
+    &--active{
+      border: 0.75px solid colors.$color-grey;
+    }
+  }
+  &__text{
+    font-size: variables.$fs-text-xxxl;
+    width: 640px;
+    text-align: center;
+    line-height: 1.3em;
+    padding: 30px 0;
+  }
 }

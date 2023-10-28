@@ -2,6 +2,7 @@
 @use 'functions';
 
 //Font Size
+$fs-text-xxxl: functions.pxToRem(22);
 $fs-text-xxl: functions.pxToRem(20);
 $fs-text-xl: functions.pxToRem(18);
 $fs-text-m: functions.pxToRem(16);
@@ -14,3 +15,4 @@ $fs-title-l: functions.pxToRem(36);
 $fs-title-m: functions.pxToRem(32);
 $fs-title-s: functions.pxToRem(30);
 $fs-title-xs: functions.pxToRem(26);
+$fs-title-xxs: functions.pxToRem(24);

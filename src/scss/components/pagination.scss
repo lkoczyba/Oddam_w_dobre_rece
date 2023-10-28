@@ -1,0 +1,57 @@
+@use '../settings/variables';
+@use '../settings/colors';
+@use '../settings/fonts';
+
+.pagination {
+  width: 1300px;
+  margin: 0 auto;
+
+  &__list-el {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid colors.$color-grey;
+    }
+  }
+
+  &__container {
+
+  }
+
+  &__name {
+    font-size: variables.$fs-title-xs;
+    font-weight: 300;
+    margin-bottom: 6px;
+    font-family: fonts.$font-alt;
+  }
+
+  &__description {
+    font-size: variables.$fs-text-xl;
+    font-weight: 300;
+    font-family: fonts.$font-alt;
+  }
+
+  &__need {
+    font-size: variables.$fs-text-xl;
+    font-weight: 300;
+    font-family: fonts.$font-alt;
+    align-self: start;
+    padding: 10px 0;
+  }
+
+  &__button {
+    height: 50px;
+    width: 40px;
+    background: transparent;
+    margin: 10px;
+    border: 1px solid transparent;
+    font-size: variables.$fs-text-xl;
+
+    &--active {
+      border: 1px solid colors.$color-grey;
+    }
+  }
+}
