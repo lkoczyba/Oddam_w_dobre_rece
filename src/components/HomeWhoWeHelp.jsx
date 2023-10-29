@@ -145,9 +145,9 @@ const HomeWhoWeHelp = () => {
         setPage(1);
     }, [activeCategory]);
 
-    console.log('category', activeCategory);
-    console.log(activeCategoryData);
-    console.log('page', page)
+    // console.log('category', activeCategory);
+    // console.log(activeCategoryData);
+    // console.log('page', page)
 
     return (
         <section className="who-we-help" id="who-we-help">
