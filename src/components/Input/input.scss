@@ -1,0 +1,35 @@
+@use '../../scss/settings/colors';
+@use '../../scss/settings/variables';
+
+.input{
+  &__label{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-weight: 600;
+  }
+  &__text{
+    width: 256px;
+    border: none;
+    border-bottom: 1px solid colors.$color-grey ;
+    background: transparent;
+    padding: 4px;
+    &::placeholder{
+      color: #3C3C3C26;
+      font-size: variables.$fs-text-xl;
+    }
+  }
+  &__textarea{
+    height: 110px;
+    width: 528px;
+    border: none;
+    border-bottom: 1px solid colors.$color-grey ;
+    background: transparent;
+    resize: none;
+    padding: 4px;
+    &::placeholder{
+      color: #3C3C3C26;
+      font-size: variables.$fs-text-m;
+    }
+  }
+}

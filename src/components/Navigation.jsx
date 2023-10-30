@@ -10,7 +10,6 @@ const Navigation = () => {
     useEffect(() => {
         if (hash) {
             const section = document.querySelector(hash);
-            console.log(section.offsetTop);
             window.scrollTo({top: section.offsetTop, behavior: 'smooth',});
         } else {
             window.scrollTo({top: 0, behavior: 'smooth',})

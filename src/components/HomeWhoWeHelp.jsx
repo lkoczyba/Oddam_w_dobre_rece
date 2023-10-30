@@ -154,15 +154,15 @@ const HomeWhoWeHelp = () => {
             <Heading text1='Komu pomagamy?'/>
             <div className='who-we-help__category-container'>
                 <button onClick={handleCategory}
-                        className={activeCategory === 'fundacje' ? 'who-we-help__category-button who-we-help__category-button--active' : 'who-we-help__category-button'}
+                        className={activeCategory === 'fundacje' ? 'button button--border' : 'button'}
                         id='fundacje'>Fundacjom
                 </button>
                 <button onClick={handleCategory}
-                        className={activeCategory === 'organizacje' ? 'who-we-help__category-button who-we-help__category-button--active' : 'who-we-help__category-button'}
+                        className={activeCategory === 'organizacje' ? 'button button--border' : 'button'}
                         id='organizacje'>Organizacjom pozarządowym
                 </button>
                 <button onClick={handleCategory}
-                        className={activeCategory === 'lokalne' ? 'who-we-help__category-button who-we-help__category-button--active' : 'who-we-help__category-button'}
+                        className={activeCategory === 'lokalne' ? 'button button--border' : 'button'}
                         id='lokalne'>Lokalnym zbiórkom
                 </button>
             </div>

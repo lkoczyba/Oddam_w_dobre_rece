@@ -12,10 +12,10 @@ const HomeHeader = () => {
                 <Heading text1={'Zacznij pomagać!'} text2={'Oddaj niechciane rzeczy w zaufane ręce'}/>
                 <div className='header__container-CTA'>
 
-                        <NavLink className='CTA-button' to='/logowanie'>oddaj rzeczy</NavLink>
+                        <NavLink className='button button--big button--border' to='/logowanie'>oddaj rzeczy</NavLink>
 
 
-                        <NavLink className='CTA-button' to='/logowanie'>zorganizuj zbiórkę</NavLink>
+                        <NavLink className='button button--big button--border' to='/logowanie'>zorganizuj zbiórkę</NavLink>
 
                 </div>
             </div>

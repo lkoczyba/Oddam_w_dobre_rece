@@ -13,7 +13,7 @@ const HomeSimpleSteps = () => {
             <StepCard iconURL='src/assets/Icon-3.svg' title='Zdecyduj komu chcesz pomóc' text='wybierz zaufane miejsce'/>
             <StepCard iconURL='src/assets/Icon-4.svg' title='Zamów kuriera' text='kurier przyjedzie w dogodnym terminie'/>
             </div>
-            <NavLink className='CTA-button' to='/logowanie'>Oddaj rzeczy</NavLink>
+            <NavLink className='button button--big button--border' to='/logowanie'>Oddaj rzeczy</NavLink>
         </section>
     );
 };

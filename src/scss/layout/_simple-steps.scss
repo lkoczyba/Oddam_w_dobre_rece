@@ -2,7 +2,11 @@
 
 .simple-steps{
 padding-top: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   &__cards-container{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

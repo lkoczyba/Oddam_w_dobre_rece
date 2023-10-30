@@ -3,10 +3,12 @@
 @use 'base/base';
 
 @use'components/headnig';
-@use'components/CTA-button';
+@use 'components/button';
 @use'components/stat-card';
 @use'components/step-card';
 @use'components/pagination';
+
+@use '../components/Input/input';
 
 @use 'layout/app';
 @use 'layout/navigation';

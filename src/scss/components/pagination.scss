@@ -49,6 +49,7 @@
     margin: 10px;
     border: 1px solid transparent;
     font-size: variables.$fs-text-xl;
+    cursor: pointer;
 
     &--active {
       border: 1px solid colors.$color-grey;
