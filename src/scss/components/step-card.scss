@@ -11,7 +11,8 @@
   gap: 8px;
 
   &__icon {
-
+    width: 83px;
+    height: 83px;
   }
 
   &__title {
@@ -20,7 +21,7 @@
     line-height: 1.33em;
   }
 
-  &__line{
+  &__line {
     display: block;
     height: 1px;
     width: 70px;

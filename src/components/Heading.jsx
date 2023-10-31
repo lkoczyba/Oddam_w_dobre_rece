@@ -5,7 +5,7 @@ const Heading = ({text1, text2}) => {
         <div className='heading'>
             {text1 && <h1 className='heading__text'>{text1}</h1>}
             {text2 && <h1 className='heading__text'>{text2}</h1>}
-            <img src="src/assets/Decoration.svg" alt="decoration"/>
+            <img className='heading__img' src="src/assets/Decoration.svg" alt="decoration"/>
         </div>
     );
 };

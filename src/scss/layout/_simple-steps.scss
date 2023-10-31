@@ -1,11 +1,12 @@
 @use '../settings/colors';
 
-.simple-steps{
-padding-top: 55px;
+.simple-steps {
+  padding-top: 55px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  &__cards-container{
+
+  &__cards-container {
     width: 100%;
     display: flex;
     justify-content: center;

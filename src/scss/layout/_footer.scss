@@ -1,0 +1,19 @@
+@use '../settings/variables';
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 10px 140px;
+  &__icon-container{
+    display: flex;
+    gap: 20px;
+  }
+  &__text{
+    margin: 0 auto;
+    font-size: variables.$fs-text-xl;
+  }
+}
