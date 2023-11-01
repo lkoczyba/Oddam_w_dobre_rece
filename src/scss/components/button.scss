@@ -28,6 +28,9 @@
     width: 150px;
     height: 50px;
     font-size: variables.$fs-text-xl;
+    padding: 10px;
+    font-family: inherit;
+
   }
   &--border{
     border: 0.75px solid colors.$color-grey-dark;

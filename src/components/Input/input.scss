@@ -21,6 +21,9 @@
     &--error{
       border-bottom: 1px solid red;
     }
+    &:focus{
+      outline: none;
+    }
   }
   &__textarea{
     height: 110px;
@@ -33,6 +36,12 @@
     &::placeholder{
       color: #3C3C3C26;
       font-size: variables.$fs-text-m;
+    }
+    &--error{
+      border-bottom: 1px solid red;
+    }
+    &:focus{
+      outline: none;
     }
   }
   &__error{

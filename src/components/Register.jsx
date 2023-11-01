@@ -1,9 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
+import Heading from "./Heading.jsx";
+import Input from "./Input/Input.jsx";
+import {NavLink} from "react-router-dom";
 
 const Register = () => {
+
     return (
-        <div>
-            Register placeholder
+        <div className='register'>
+
         </div>
     );
 };
