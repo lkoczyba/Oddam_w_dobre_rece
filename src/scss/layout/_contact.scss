@@ -1,3 +1,5 @@
+@use '../../scss/settings/variables';
+
 .contact {
   display: flex;
   justify-content: flex-end;
@@ -6,6 +8,12 @@
   url("src/assets/Background-Contact-Form.jpg");
   height: 1112px;
   padding: 140px;
+
+  &__success{
+    color: green;
+    text-align: center;
+    font-size: variables.$fs-text-xl;
+  }
 
   &__form {
     display: flex;

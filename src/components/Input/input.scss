@@ -18,6 +18,9 @@
       color: #3C3C3C26;
       font-size: variables.$fs-text-xl;
     }
+    &--error{
+      border-bottom: 1px solid red;
+    }
   }
   &__textarea{
     height: 110px;
@@ -31,5 +34,9 @@
       color: #3C3C3C26;
       font-size: variables.$fs-text-m;
     }
+  }
+  &__error{
+    color: red;
+    font-size: variables.$fs-text-xs;
   }
 }
