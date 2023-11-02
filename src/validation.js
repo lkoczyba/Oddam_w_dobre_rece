@@ -13,3 +13,11 @@ export const validateName = (name) => {
 export const validateMessage = (message) => {
    return message.length <= 120;
 };
+
+export const validatePassword = (password) => {
+    return password.length < 6;
+};
+
+export const validatePasswordConfirm = (password1, password2) => {
+    return password1!==password2;
+};
