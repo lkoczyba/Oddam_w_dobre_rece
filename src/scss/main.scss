@@ -9,6 +9,7 @@
 @use'components/pagination';
 
 @use '../components/Input/input';
+@use '../components/DiamondCard/diamond-card';
 
 @use 'layout/app';
 @use 'layout/navigation';
@@ -23,4 +24,5 @@
 @use 'layout/who-we-help';
 @use 'layout/contact';
 @use 'layout/footer';
+@use 'layout/form';
 

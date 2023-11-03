@@ -1,0 +1,9 @@
+.form{
+
+  &__diamond-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+}
