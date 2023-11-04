@@ -1,0 +1,16 @@
+@use '../../scss/settings/colors';
+@use '../../scss/settings/variables';
+
+.form-header {
+  padding: 35px 540px 35px 140px;
+  background-color: colors.$color-yellow;
+
+  &__title{
+    font-size: variables.$fs-title-l;
+    font-weight: 600;
+  }
+  &__text{
+    font-size: variables.$fs-text-xxxl;
+    line-height: 1.35;
+  }
+}

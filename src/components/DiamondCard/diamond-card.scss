@@ -26,10 +26,12 @@
   &__number{
     font-size: variables.$fs-title-m;
     text-align: center;
+    font-weight: 300;
   }
   &__text{
     font-size: variables.$fs-text-xxxl;
     text-align: center;
     line-height: 1.2;
+    font-weight: 300;
   }
 }

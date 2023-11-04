@@ -7,9 +7,11 @@
 @use'components/stat-card';
 @use'components/step-card';
 @use'components/pagination';
+@use'components/donate-form';
 
 @use '../components/Input/input';
 @use '../components/DiamondCard/diamond-card';
+@use '../components/FormHeader/form-header';
 
 @use 'layout/app';
 @use 'layout/navigation';
@@ -24,5 +26,5 @@
 @use 'layout/who-we-help';
 @use 'layout/contact';
 @use 'layout/footer';
-@use 'layout/form';
+@use 'layout/donate-items';
 
