@@ -1,0 +1,21 @@
+@use '../../scss/settings/colors';
+@use '../../scss/settings/variables';
+
+.radio {
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  border: 1px solid colors.$color-grey-dark;
+  margin: 21px 21px 21px 0;
+
+  &:checked {
+    background-color: colors.$color-yellow;
+  }
+
+  &__label {
+    display: flex;
+    align-items: center;
+    font-size: variables.$fs-title-xxs;
+    font-weight: 300;
+  }
+}

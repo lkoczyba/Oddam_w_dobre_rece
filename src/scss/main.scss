@@ -8,10 +8,12 @@
 @use'components/step-card';
 @use'components/pagination';
 @use'components/donate-form';
+@use'components/select';
 
 @use '../components/Input/input';
 @use '../components/DiamondCard/diamond-card';
 @use '../components/FormHeader/form-header';
+@use '../components/Radio/radio';
 
 @use 'layout/app';
 @use 'layout/navigation';

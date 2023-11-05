@@ -1,4 +1,28 @@
+@use '../../scss/settings/colors';
+@use '../../scss/settings/variables';
+
 .donate-form {
   background-image: url("src/assets/Background-Form.jpg");
   height: 883px;
+  padding: 40px 140px;
+  position: relative;
+
+  &__step{
+    font-size: variables.$fs-title-xxs;
+    font-weight: 300;
+    margin-bottom: 70px;
+  }
+  &__title{
+    color: black;
+    font-size: variables.$fs-title-l;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  &__button-container{
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
 }
