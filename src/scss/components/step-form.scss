@@ -1,0 +1,64 @@
+@use '../../scss/settings/colors';
+@use '../../scss/settings/variables';
+
+.step-form {
+  &--columns{
+    display: flex;
+    gap: 150px;
+  }
+  &__button-container{
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  &__checkbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    gap: 24px;
+  }
+  &__label{
+    display: block;
+    font-weight: 600;
+    font-size: variables.$fs-title-xxs;
+    margin: 50px 0 20px;
+  }
+
+  &__text-input{
+    width: 570px;
+    height: 40px;
+    outline: none;
+    font-size: variables.$fs-title-xxs;
+    font-weight: 300;
+  }
+  &__column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__address-input{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-size: variables.$fs-title-xxs;
+    font-weight: 300;
+    input{
+      height: 40px;
+      width: 256px;
+      background-color: transparent;
+      outline: none;
+      font-size: variables.$fs-title-xxs;
+    }
+    textarea{
+      background-color: transparent;
+      outline: none;
+      font-size: variables.$fs-title-xxs;
+      width: 256px;
+      height: 120px;
+      resize: none;
+      flex-shrink: 0;
+    }
+  }
+}

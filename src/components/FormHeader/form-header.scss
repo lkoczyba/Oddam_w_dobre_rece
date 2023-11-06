@@ -4,6 +4,11 @@
 .form-header {
   padding: 35px 540px 35px 140px;
   background-color: colors.$color-yellow;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 
   &__title{
     font-size: variables.$fs-title-l;

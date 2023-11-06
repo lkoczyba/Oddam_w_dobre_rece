@@ -1,0 +1,22 @@
+@use '../../scss/settings/colors';
+@use '../../scss/settings/variables';
+
+.checkbox {
+  border: 1px solid colors.$color-grey-dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 55px;
+  padding: 10px 20px;
+  font-size: variables.$fs-title-xxs;
+  font-weight: 300;
+
+  input {
+    display: none;
+  }
+
+  &:has(input:checked) {
+    background-color: colors.$color-yellow;
+  }
+}
